@@ -1,0 +1,18 @@
+.start {
+    color: white; 
+    font-family: Tiny5;
+    text-align: center;
+    margin-top: 20vw;
+    font-size: 2vw;
+    
+    animation-name: blink;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {color: transparent}
+    25% {color: transparent;}
+    50% {color: white;}
+    100%{color: white;}
+  }

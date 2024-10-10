@@ -1,7 +1,7 @@
 document.addEventListener('keydown', function(event) {
-  if (true) {
-     window.location.href = 'desktop.html'
-     
-  }
-  });
-
+   if (true) {
+      window.location.href = 'aboutme.html'
+      
+   }
+   });
+ 
