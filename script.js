@@ -5,9 +5,3 @@ document.addEventListener('keydown', function(event) {
    }
    });
  
- var navlink =  document.getElementsByClassName('nav-link');
-
-function myfunction(navlink){
-   navlink.classList.remove("du");
-   navlink.classList.add("du1");
-};

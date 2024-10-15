@@ -31,19 +31,22 @@ nav{
 .du {
 
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration:1.52s;
     animation-fill-mode: forwards;
 
 }
 
 @keyframes fade {
-    from {
+    0% {
         translate: 30vw 0;
       
       }
     
-      to {
-        translate: 0 0;
+      50% {
+        translate: 10vw 0;
         
+      }
+      100% {
+        translate: 0vw 0;
       }
     }
